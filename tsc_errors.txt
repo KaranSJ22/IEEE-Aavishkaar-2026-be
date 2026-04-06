@@ -1,0 +1,3 @@
+﻿src/db/index.ts(11,9): error TS2322: Type 'string | undefined' is not assignable to type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+src/storage/index.ts(1,10): error TS2614: Module '"@/db"' has no exported member 'mongodbClient'. Did you mean to use 'import mongodbClient from "@/db"' instead?

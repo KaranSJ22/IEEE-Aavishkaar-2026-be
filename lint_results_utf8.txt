@@ -1,0 +1,40 @@
+﻿
+> temp@1.0.0 lint
+> eslint .
+
+
+C:\Coding\Hackathons,events,workshops\Techfest26\backend-api-version\src\controllers\alleventscontroller.ts
+   2:15  error    'ControllerClass' is defined but never used  @typescript-eslint/no-unused-vars
+  11:19  warning  Unexpected any. Specify a different type     @typescript-eslint/no-explicit-any
+
+C:\Coding\Hackathons,events,workshops\Techfest26\backend-api-version\src\controllers\allregistrationbyeventidcontroller.ts
+   2:15  error    'ControllerClass' is defined but never used  @typescript-eslint/no-unused-vars
+  28:21  warning  Unexpected any. Specify a different type     @typescript-eslint/no-explicit-any
+
+C:\Coding\Hackathons,events,workshops\Techfest26\backend-api-version\src\controllers\allregistrationscontroller.ts
+   2:15  error    'ControllerClass' is defined but never used        @typescript-eslint/no-unused-vars
+   5:7   error    'paramsSchema' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  13:19  warning  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+
+C:\Coding\Hackathons,events,workshops\Techfest26\backend-api-version\src\controllers\eventscontroller.ts
+   2:15  error    'ControllerClass' is defined but never used  @typescript-eslint/no-unused-vars
+  12:19  warning  Unexpected any. Specify a different type     @typescript-eslint/no-explicit-any
+
+C:\Coding\Hackathons,events,workshops\Techfest26\backend-api-version\src\controllers\newregistrationcontroller.ts
+   2:15  error    'ControllerClass' is defined but never used  @typescript-eslint/no-unused-vars
+  19:19  warning  Unexpected any. Specify a different type     @typescript-eslint/no-explicit-any
+
+C:\Coding\Hackathons,events,workshops\Techfest26\backend-api-version\src\db\index.ts
+  24:18  error  'error' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Coding\Hackathons,events,workshops\Techfest26\backend-api-version\src\routes\events.ts
+  1:18  error  'Request' is defined but never used   @typescript-eslint/no-unused-vars
+  1:27  error  'Response' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Coding\Hackathons,events,workshops\Techfest26\backend-api-version\src\routes\registrations.ts
+  2:10  error  'z' is defined but never used                   @typescript-eslint/no-unused-vars
+  3:10  error  'registrationSchema' is defined but never used  @typescript-eslint/no-unused-vars
+  4:10  error  'RegistrationModel' is defined but never used   @typescript-eslint/no-unused-vars
+
+Γ£û 17 problems (12 errors, 5 warnings)
+

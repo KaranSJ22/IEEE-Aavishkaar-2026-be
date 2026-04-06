@@ -1,0 +1,24 @@
+﻿
+> temp@1.0.0 lint
+> eslint .
+
+
+C:\Coding\Hackathons,events,workshops\Techfest26\backend-api-version\src\controllers\alleventscontroller.ts
+  10:19  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Coding\Hackathons,events,workshops\Techfest26\backend-api-version\src\controllers\allregistrationbyeventidcontroller.ts
+  27:21  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Coding\Hackathons,events,workshops\Techfest26\backend-api-version\src\controllers\allregistrationscontroller.ts
+  9:19  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Coding\Hackathons,events,workshops\Techfest26\backend-api-version\src\controllers\eventscontroller.ts
+  11:19  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  12:47  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Coding\Hackathons,events,workshops\Techfest26\backend-api-version\src\controllers\newregistrationcontroller.ts
+  18:19  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  20:47  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+Γ£û 7 problems (0 errors, 7 warnings)
+
