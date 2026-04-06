@@ -13,9 +13,12 @@ export async function newregistrationcontroller(req: Request, res: Response) {
         
         const registration = new RegistrationModel(parsed);
         await registration.save();
-        sendWelcomeEmail(parsed);
-        console.log("Registration saved:", registration);
-        
+
+        let val=sendWelcomeEmail(parsed);
+        if(val==null){
+            res.status(400).json("Couldn't send email");
+        }
+        console.log("Registration saved:", registration);  
         res.status(201).json({ message: "Registration created", registration });
     } catch (err) {
         console.error("Error in newregistrationcontroller:", err);
